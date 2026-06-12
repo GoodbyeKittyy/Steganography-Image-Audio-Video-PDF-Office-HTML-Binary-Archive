@@ -1,11 +1,17 @@
 # StegoSuite v2.0
-### A Steganography Toolkit for Text, Image, Audio, Video and More
+### A Steganography Toolkit for Text, Image, Audio, PDF, Office Files, HTML, Binary, Archive
+
+
 
 ## Personal Note
 
-This project is a reattempt of a previous assignment, done properly this time.
+This project is a reattempt of a previous academic assignment, done professionally.
 
-The original version was rushed, limited, and honestly felt incomplete. It could barely handle images and even then not reliably. I wanted to go back to it, do it justice, and build something I would actually be proud to show. StegoSuite v2.0 is that: a clean, professional desktop application that does not just check the boxes but actually handles the full picture. It supports nine different file type categories for both encoding and decoding, something I genuinely could not do the first time around.
+The original version was incomplete. It could only handle images well and eaudio and video but not reliably. 
+
+I wanted to build something I would actually be proud to show. This software, StegoSuite v2.0 is that!
+
+A clean, professional desktop application that actually handles the full picture of what is mostly possible. It supports nine different file type categories for both encoding and decoding, something I genuinely could not do the first time around.
 
 The architecture is properly separated (GUI, logic, and styling are all independent modules), the UI is polished, and every carrier format has a real, technically sound steganography method behind it rather than a hack that sort of works.
 
