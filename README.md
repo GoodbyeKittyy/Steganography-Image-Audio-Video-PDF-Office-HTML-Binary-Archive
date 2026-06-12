@@ -63,7 +63,7 @@ This means when you decode a stego file, StegoSuite can reconstruct the original
 
 ## Supported File Types
 
-</br><img width="512" height="512" alt="txt" src="https://github.com/user-attachments/assets/ccfee1e8-fa29-4e12-9d8e-ac9385c25a9b" />
+</br><img width="48" height="48" alt="txt" src="https://github.com/user-attachments/assets/ccfee1e8-fa29-4e12-9d8e-ac9385c25a9b" />
 </br>
 ### 1. Text Files (.txt)
 **Technique: Zero-width Unicode character injection**
