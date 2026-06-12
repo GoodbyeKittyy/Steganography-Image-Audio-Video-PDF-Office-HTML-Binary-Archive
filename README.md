@@ -12,7 +12,7 @@ The original version was incomplete. It could only handle images well along with
 
 I wanted to build something I would actually be proud to show. This software, StegoSuite v2.0 is that!
 
-A clean, professional desktop application that actually handles the full picture of what is mostly possible. It supports nine different file type categories for both encoding and decoding, something I genuinely could not do the first time around.
+A clean, professional desktop application that actually handles the full picture of what is mostly possible. It supports **nine different file type categories** for both encoding and decoding, something I genuinely could not do the first time around.
 
 The architecture is properly separated (GUI, logic, and styling are all independent modules), the UI is polished, and every carrier format has a real, technically sound steganography method behind it rather than a hack that sort of works. </br>
 
