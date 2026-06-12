@@ -204,18 +204,18 @@ python main.py
 ## Usage
 
 1. **Encode tab:** Select a cover file (the carrier), select a secret file to hide, choose the file type (or leave on Auto-detect), and click Encode. The output is saved to `EncodedDecodedFiles/`.
-<img width="2539" height="1039" alt="image" src="https://github.com/user-attachments/assets/5b7ffa10-55a0-493b-9707-822e3498bc1e" />
+</br><img width="2539" height="1039" alt="image" src="https://github.com/user-attachments/assets/5b7ffa10-55a0-493b-9707-822e3498bc1e" /></br>
 
 
-3. **Decode tab:** Select a stego file previously encoded by StegoSuite, click Decode, and the hidden file will be extracted and saved.
-<img width="2551" height="1132" alt="image" src="https://github.com/user-attachments/assets/b2c5eb34-4b80-46f8-8b08-f5cada3ba8bd" />
-
-   
-5. **Log tab:** View a timestamped record of all encode/decode operations. Logs can be saved to `LogFiles/`.
-<img width="2551" height="484" alt="image" src="https://github.com/user-attachments/assets/452c3e0b-e841-40b4-abbe-a9e0f7d8ce82" />
+2. **Decode tab:** Select a stego file previously encoded by StegoSuite, click Decode, and the hidden file will be extracted and saved.
+</br><img width="2551" height="1132" alt="image" src="https://github.com/user-attachments/assets/b2c5eb34-4b80-46f8-8b08-f5cada3ba8bd" /></br>
 
    
-7. **Methods tab:** In-app reference for all steganography techniques and their capacities and limitations.
-<img width="2516" height="1009" alt="image" src="https://github.com/user-attachments/assets/f11ac491-5a45-4d19-aa73-ac6f67bde20b" />
-<img width="2504" height="1107" alt="image" src="https://github.com/user-attachments/assets/81c7d606-ec6b-4df1-b3db-0fbb520c80da" />
+3. **Log tab:** View a timestamped record of all encode/decode operations. Logs can be saved to `LogFiles/`.
+</br><img width="2551" height="484" alt="image" src="https://github.com/user-attachments/assets/452c3e0b-e841-40b4-abbe-a9e0f7d8ce82" /></br>
+
+   
+4. **Methods tab:** In-app reference for all steganography techniques and their capacities and limitations.
+</br><img width="2516" height="1009" alt="image" src="https://github.com/user-attachments/assets/f11ac491-5a45-4d19-aa73-ac6f67bde20b" />
+<img width="2504" height="1107" alt="image" src="https://github.com/user-attachments/assets/81c7d606-ec6b-4df1-b3db-0fbb520c80da" /></br>
 
