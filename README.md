@@ -20,7 +20,7 @@ The architecture is properly separated (GUI, logic, and styling are all independ
 
 ## What Is Steganography?
 
-<img width="1960" height="706" alt="image" src="https://github.com/user-attachments/assets/626a861d-ece2-410d-8765-0017154403c5" />
+<img width="1960" height="706" alt="image" src="https://github.com/user-attachments/assets/626a861d-ece2-410d-8765-0017154403c5" /> </br>
 Diagram reference: https://www.scaler.com/topics/difference-between-cryptography-and-steganography/
 
 
@@ -28,7 +28,7 @@ Steganography is the practice of **hiding secret information inside an ordinary,
 
 The file used to carry the hidden message is called the **cover file** or **carrier**. After encoding, it becomes the **stego file**. It looks and behaves completely normally to anyone who opens it, while secretly containing the hidden payload embedded within. </br>
 
-<img width="991" height="595" alt="image" src="https://github.com/user-attachments/assets/b4661e8d-6d44-45d0-8d39-680d60c3f105" />
+<img width="991" height="595" alt="image" src="https://github.com/user-attachments/assets/b4661e8d-6d44-45d0-8d39-680d60c3f105" /> </br>
 Diagram reference: https://null-byte.wonderhowto.com/how-to/steganography-hide-secret-data-inside-image-audio-file-seconds-0180936/
 </br>
 
