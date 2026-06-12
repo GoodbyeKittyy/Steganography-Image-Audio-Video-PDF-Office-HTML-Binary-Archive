@@ -1,7 +1,7 @@
 # StegoSuite v2.0
 ### A Steganography Toolkit for Text, Image, Audio, PDF, Office Files, HTML, Binary, Archive
 <img width="2558" height="1142" alt="image" src="https://github.com/user-attachments/assets/c0801944-8d7c-4697-9cdf-a4f96e68255a" />
-
+</br>
 
 
 ## Project Background
@@ -14,7 +14,7 @@ I wanted to build something I would actually be proud to show. This software, St
 
 A clean, professional desktop application that actually handles the full picture of what is mostly possible. It supports nine different file type categories for both encoding and decoding, something I genuinely could not do the first time around.
 
-The architecture is properly separated (GUI, logic, and styling are all independent modules), the UI is polished, and every carrier format has a real, technically sound steganography method behind it rather than a hack that sort of works.
+The architecture is properly separated (GUI, logic, and styling are all independent modules), the UI is polished, and every carrier format has a real, technically sound steganography method behind it rather than a hack that sort of works. </br>
 
 ---
 
@@ -26,10 +26,11 @@ Diagram reference: https://www.scaler.com/topics/difference-between-cryptography
 
 Steganography is the practice of **hiding secret information inside an ordinary, innocent-looking file** so that no one even suspects a message is there. Unlike encryption, which scrambles data so it cannot be read, steganography hides the fact that any secret exists at all.
 
-The file used to carry the hidden message is called the **cover file** or **carrier**. After encoding, it becomes the **stego file**. It looks and behaves completely normally to anyone who opens it, while secretly containing the hidden payload embedded within.
+The file used to carry the hidden message is called the **cover file** or **carrier**. After encoding, it becomes the **stego file**. It looks and behaves completely normally to anyone who opens it, while secretly containing the hidden payload embedded within. </br>
 
 <img width="991" height="595" alt="image" src="https://github.com/user-attachments/assets/b4661e8d-6d44-45d0-8d39-680d60c3f105" />
 Diagram reference: https://null-byte.wonderhowto.com/how-to/steganography-hide-secret-data-inside-image-audio-file-seconds-0180936/
+</br>
 
 Classic examples: hiding a message in the pixels of a photo, tucking data into the silence of an audio recording, or injecting invisible characters into a text document. To the human eye and ear, nothing has changed. But the data is there.
 
