@@ -1,5 +1,6 @@
 # StegoSuite v2.0
 ### A Steganography Toolkit for Text, Image, Audio, PDF, Office Files, HTML, Binary, Archive
+<img width="2558" height="1142" alt="image" src="https://github.com/user-attachments/assets/c0801944-8d7c-4697-9cdf-a4f96e68255a" />
 
 
 
@@ -19,9 +20,16 @@ The architecture is properly separated (GUI, logic, and styling are all independ
 
 ## What Is Steganography?
 
+<img width="1960" height="706" alt="image" src="https://github.com/user-attachments/assets/626a861d-ece2-410d-8765-0017154403c5" />
+Diagram reference: https://www.scaler.com/topics/difference-between-cryptography-and-steganography/
+
+
 Steganography is the practice of **hiding secret information inside an ordinary, innocent-looking file** so that no one even suspects a message is there. Unlike encryption, which scrambles data so it cannot be read, steganography hides the fact that any secret exists at all.
 
 The file used to carry the hidden message is called the **cover file** or **carrier**. After encoding, it becomes the **stego file**. It looks and behaves completely normally to anyone who opens it, while secretly containing the hidden payload embedded within.
+
+<img width="991" height="595" alt="image" src="https://github.com/user-attachments/assets/b4661e8d-6d44-45d0-8d39-680d60c3f105" />
+Diagram reference: https://null-byte.wonderhowto.com/how-to/steganography-hide-secret-data-inside-image-audio-file-seconds-0180936/
 
 Classic examples: hiding a message in the pixels of a photo, tucking data into the silence of an audio recording, or injecting invisible characters into a text document. To the human eye and ear, nothing has changed. But the data is there.
 
@@ -184,6 +192,18 @@ python main.py
 ## Usage
 
 1. **Encode tab:** Select a cover file (the carrier), select a secret file to hide, choose the file type (or leave on Auto-detect), and click Encode. The output is saved to `EncodedDecodedFiles/`.
-2. **Decode tab:** Select a stego file previously encoded by StegoSuite, click Decode, and the hidden file will be extracted and saved.
-3. **Log tab:** View a timestamped record of all encode/decode operations. Logs can be saved to `LogFiles/`.
-4. **Methods tab:** In-app reference for all steganography techniques and their capacities and limitations.
+<img width="2539" height="1039" alt="image" src="https://github.com/user-attachments/assets/5b7ffa10-55a0-493b-9707-822e3498bc1e" />
+
+
+3. **Decode tab:** Select a stego file previously encoded by StegoSuite, click Decode, and the hidden file will be extracted and saved.
+<img width="2551" height="1132" alt="image" src="https://github.com/user-attachments/assets/b2c5eb34-4b80-46f8-8b08-f5cada3ba8bd" />
+
+   
+5. **Log tab:** View a timestamped record of all encode/decode operations. Logs can be saved to `LogFiles/`.
+<img width="2551" height="484" alt="image" src="https://github.com/user-attachments/assets/452c3e0b-e841-40b4-abbe-a9e0f7d8ce82" />
+
+   
+7. **Methods tab:** In-app reference for all steganography techniques and their capacities and limitations.
+<img width="2516" height="1009" alt="image" src="https://github.com/user-attachments/assets/f11ac491-5a45-4d19-aa73-ac6f67bde20b" />
+<img width="2504" height="1107" alt="image" src="https://github.com/user-attachments/assets/81c7d606-ec6b-4df1-b3db-0fbb520c80da" />
+
