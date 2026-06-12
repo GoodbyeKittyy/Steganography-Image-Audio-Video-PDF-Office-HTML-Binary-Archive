@@ -884,7 +884,7 @@ class MainWindow(QMainWindow):
         bh.setContentsMargins(30, 0, 30, 0)
 
         title_col = QVBoxLayout()
-        t = QLabel("STEGONOGRAPHY FOR TEXT, IMAGE, AUDIO, VIDEO FILE TYPES")
+        t = QLabel("STEGOSUITE V2.0")
         t.setObjectName("label_title")
         title_col.addWidget(t)
         bh.addLayout(title_col)
