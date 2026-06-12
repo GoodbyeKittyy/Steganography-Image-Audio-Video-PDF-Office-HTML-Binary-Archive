@@ -4,7 +4,7 @@
 
 
 
-## Personal Note
+## Project Background
 
 This project is a reattempt of a previous academic assignment, done professionally.
 
