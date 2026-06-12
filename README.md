@@ -63,6 +63,8 @@ This means when you decode a stego file, StegoSuite can reconstruct the original
 
 ## Supported File Types
 
+</br><img width="512" height="512" alt="txt" src="https://github.com/user-attachments/assets/ccfee1e8-fa29-4e12-9d8e-ac9385c25a9b" />
+</br>
 ### 1. Text Files (.txt)
 **Technique: Zero-width Unicode character injection**
 
@@ -73,7 +75,8 @@ Hidden bytes are encoded as invisible Unicode characters and inserted after the 
 **Limitation:** Copy-pasting into plain ASCII systems (e.g. some web forms) will strip zero-width characters. The file must be preserved byte-for-byte.
 
 ---
-
+</br><img width="512" height="512" alt="gallery" src="https://github.com/user-attachments/assets/94fb51ac-7a29-4d14-95b3-e2916e5e6d25" />
+</br>
 ### 2. Image Files (.png, .bmp)
 **Technique: 1-bit LSB (Least-Significant Bit) substitution**
 
@@ -86,7 +89,8 @@ The least-significant bit of every RGB channel byte in each pixel is replaced wi
 **Limitation:** Do not re-save the output as JPEG. Lossy compression is fatal to LSB-encoded data.
 
 ---
-
+</br><img width="512" height="512" alt="sound" src="https://github.com/user-attachments/assets/05483091-037d-4448-bfaf-da29e7fc3957" />
+</br>
 ### 3. Audio Files (.wav)
 **Technique: 1-bit LSB substitution on 16-bit PCM samples**
 
@@ -97,7 +101,8 @@ The least-significant bit of each 16-bit audio sample is replaced with one paylo
 **Limitation:** Only uncompressed WAV is supported. MP3, AAC, and OGG use lossy encoding that destroys LSBs.
 
 ---
-
+</br><img width="512" height="512" alt="multimedia (1)" src="https://github.com/user-attachments/assets/ebe183bb-d6bb-42af-816d-ce0d7329efee" />
+</br>
 ### 4. Video Files (.mp4, .avi, .mov, .mkv)
 **Technique: Per-frame 1-bit LSB substitution on BGR pixel data**
 
@@ -110,7 +115,8 @@ Payload bits are spread sequentially across video frames using OpenCV, one bit p
 **Limitation:** Output files are larger than the original due to the lossless container. Audio tracks are not preserved in the output.
 
 ---
-
+</br><img width="512" height="512" alt="sheet" src="https://github.com/user-attachments/assets/fce5b5c0-d63a-47e1-a157-9f513de81c36" />
+</br>
 ### 5. PDF Files (.pdf)
 **Technique: Metadata field injection**
 
@@ -119,7 +125,8 @@ The encoded payload (hex-encoded) is injected into a hidden `/StegoData` field i
 **Limitation:** Some aggressive PDF optimisers or "clean metadata" tools may strip unknown dictionary entries.
 
 ---
-
+</br><img width="512" height="512" alt="office" src="https://github.com/user-attachments/assets/08b81a3d-1505-4dff-a0c6-488c14b5c3ec" />
+</br>
 ### 6. Office Documents (.docx, .xlsx, .pptx)
 **Technique: Hidden ZIP part injection**
 
@@ -128,7 +135,8 @@ Office Open XML files are internally ZIP archives. StegoSuite injects a hidden f
 **Limitation:** Tools that repack or optimise the ZIP structure may strip the hidden part.
 
 ---
-
+</br><img width="512" height="512" alt="browser" src="https://github.com/user-attachments/assets/528c03e1-323b-4775-9999-71f9a5fa0f24" />
+</br>
 ### 7. HTML and CSS Files (.html, .htm, .css)
 **Technique: Zero-width Unicode character injection**
 
@@ -137,7 +145,8 @@ Identical to the text file method. Invisible Unicode characters are injected aft
 **Limitation:** HTML minifiers, formatters, or copy-paste into plain ASCII environments will strip zero-width characters.
 
 ---
-
+</br><img width="512" height="512" alt="exe-file" src="https://github.com/user-attachments/assets/e797efab-c510-46be-aa2a-022d0f731245" />
+</br>
 ### 8. Binary Executables (.exe, .dll, .so, .elf)
 **Technique: EOF (end-of-file) append with sentinel marker**
 
@@ -146,7 +155,8 @@ The payload is appended after the binary's logical end, preceded by a sentinel b
 **Limitation:** Some antivirus heuristics flag binaries with unusual trailing data. Code signing will be invalidated.
 
 ---
-
+</br><img width="512" height="512" alt="zip" src="https://github.com/user-attachments/assets/a53f59f1-4854-487e-b721-9038f16dae2e" />
+</br>
 ### 9. Archive Files (.zip, .rar, .7z, .tar, .gz)
 **Technique: EOF append after end-of-central-directory**
 
