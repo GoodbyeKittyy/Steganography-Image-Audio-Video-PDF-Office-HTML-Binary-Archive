@@ -8,7 +8,7 @@
 
 This project is a reattempt of a previous academic assignment, done professionally.
 
-The original version was incomplete. It could only handle images well and eaudio and video but not reliably. 
+The original version was incomplete. It could only handle images well along with audio and video but not reliably. 
 
 I wanted to build something I would actually be proud to show. This software, StegoSuite v2.0 is that!
 
